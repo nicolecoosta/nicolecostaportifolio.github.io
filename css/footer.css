@@ -1,6 +1,5 @@
 .contato {
   background: #000;
-
 }
 
 .contato-container {
@@ -46,12 +45,11 @@
 @media (max-width: 500px) {
   .contato-container {
     grid-template-columns: 1fr;
-    gap: 40px;
+    gap: 30px;
   }
   .contato-dados {
-    font-size: 20px;
-  }
-  .contato-dados li {
+    font-size: 15px;
     text-decoration: none;
+    color: #ffff;
   }
 }

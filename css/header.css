@@ -32,13 +32,13 @@
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 400px) {
   .header {
     flex-direction: column;
-    gap: 40px;
+    gap: 30px;
   }
   .menu a {
     background: #f5f5f5;
-    justify-content: left;
+    align-items: center;
   }
 }
