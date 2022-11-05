@@ -1,0 +1,51 @@
+.perfil {
+  max-width: 1200px;
+  padding: 40px 20px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 200px;
+  align-items: center;
+  }
+  
+  h1 {
+    font-size:  4.5rem;
+    line-height: 1.25;
+    margin-bottom: 30px;
+    position: relative;
+  }
+  
+  h1::before {
+    content: "";
+    display: block;
+    width: 130px;
+    height: 100px;
+    background: url('../img/detalhe.svg') no-repeat center;
+    position: absolute;
+    top: -5px;
+    left: -30px;
+    z-index: -1;
+  }
+  
+  .perfil p {
+    font-size: 1.5rem;
+    color: #525252;
+  }
+  
+  @media (max-width: 900px) {
+    .perfil h1 {
+      font-size: 2rem;
+    }
+    .perfil  {
+      grid-template-columns: 1fr 1fr;
+      gap: 40px;
+    }
+    .perfil h1::before {
+      width: 30px;
+      height: 30px;
+      border-radius: 100%;
+      left: 0;
+      top: 5px;
+      background: linear-gradient(#7b001e, #bf2d50)
+    }
+  }
