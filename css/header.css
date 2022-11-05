@@ -11,7 +11,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
-  justify-content: cemter;
+  justify-content: center;
 }
 
 .menu a {
@@ -40,5 +40,11 @@
   .menu a {
     background: #f5f5f5;
     align-items: center;
+    justify-content: center;
+  }
+  .menu {
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
   }
 }
