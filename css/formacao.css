@@ -147,7 +147,7 @@
   .formacao .subtitulo {
     color: #ffff;
     font-size: 1rem;
-    max-width: 4ch
+    
   }
   .formacao-texto {
     font-size: 1.5rem;
@@ -168,13 +168,13 @@
   }
   .formacao .subtitulo {
     color: #ffff;
-    font-size: 50px;
+    font-size: 40px;
   }
   .formacao-texto {
     font-size: 1.5rem;
     line-height: 1.33;
     max-width: 40ch;
-    margin-bottom: 60px;
+    margin-bottom: 60px;;
   }
   .curso-lista {
     display: grid;

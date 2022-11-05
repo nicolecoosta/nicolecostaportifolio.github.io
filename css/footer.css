@@ -47,14 +47,16 @@
     grid-template-columns: 1fr;
     gap: 40px;
   }
-  .contato-dados {
-    font-size: 0.85rem;
+  .contato-dados li {
+    font-size: 2rem;
     color: #ffff;
+    text-align: center;
   }
-  li {
+  .telefone li {
     text-decoration: none;
   }
   .contato-texto {
-    font-size: 0.85rem;
+    font-size: 1.5rem;
+
   }
 }
