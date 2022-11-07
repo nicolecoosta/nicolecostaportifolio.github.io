@@ -55,6 +55,9 @@
   .telefone li {
     text-decoration: none;
   }
+  li {
+    text-decoration: none;
+  }
   .contato-texto {
     font-size: 1.25rem;
   }
