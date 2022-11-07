@@ -181,7 +181,7 @@
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
     gap: 10px 20px;
-    padding: 20px 60;
+    padding: 20px;
   }   
 
   .formacao-extra h5::before {
