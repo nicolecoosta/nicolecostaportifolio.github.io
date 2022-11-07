@@ -48,7 +48,7 @@
     gap: 40px;
   }
   .contato-dados li {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     color: #ffff;
     text-align: center;
   }
@@ -56,9 +56,9 @@
     text-decoration: none;
   }
   .contato-texto {
-    font-size: 1rem;
+    font-size: 1.25rem;
   }
   .direitos {
-    font-size: 0.5rem;
+    font-size: 0.85rem;
   }
 }
